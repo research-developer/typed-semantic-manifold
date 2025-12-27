@@ -42,7 +42,9 @@ Literature validation across five contemporary papers (Categorical Deep Learning
 | II. Typed Addressability | 7.8/10 | Strong |
 | III. Categorical Conservation | 8.6/10 | Very Strong |
 | IV. Static Decidability | 7.6/10 | Strong |
-| V. Tokenization Commitment | 5.2/10 | Moderate |
+| V. Tokenization Commitment | 5.2/10* | Moderate |
+
+\* The Postulate V score reflects a gap in the literature corpus (none of the papers address tokenization strategies), not evidence against the claim. CDL's free monad construction provides theoretical support; proper validation requires literature on morphological vs. analytic processing in neural models.
 
 **Key Finding**: Deep structure is more robust than surface output. Linear probes recover correct information even when models hallucinate, validating the distinction between type-level semantics and token-level output.
 
